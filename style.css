@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre');
+#text{
+    font-family: "Averia Serif Libre", cursive;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 255, 255);
+    background-color: rgb(84, 84, 84);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+
+/* utilities class */
+.align-text-right
+{
+text-align: right;
+}
+.align-text-center{
+    text-align:center
+}
+* {
+    padding:0;
+    margin:0 ;
+}
+    .rmPadding{
+        padding:0;
+    }
+.flexed{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+/*  Navigation section*/
+.navPadding, .splashTitle,
+.weatherBlock, .cookie{
+    padding-top: 10px;
+    padding-left:100px;
+    padding-right:100px;
+    max-width: 1500px;
+    
+}
+.weatherBlock{
+    padding-left: 50px;
+    padding-right:200px;
+}
+.nav{
+    flex-wrap:nowrap;
+}
+.nav-link{
+    color:white;
+    font-family: "Averia Serif Libre";
+    font-size: 15pt;
+
+}
+.navbar{
+    max-width: 1500px;
+    flex-wrap:nowrap;
+    background-color:#9fc5f8;  
+}
+.navbar-brand{
+    color:white;
+    font-family: "Averia Serif Libre";
+    font-size: 20pt;
+}
+
+
+/* splash title section */
+
+.splashTitle *{
+    font-family: "Averia Serif Libre", cursive;
+ }
+
+.wrap-top {
+    flex:1;
+    align-self: center;
+}
+.wrap-top div{
+    font-size:15pt;
+}
+
+.wrap-btm {
+    display:flex;
+    flex:1;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.wrap-btm-Padding{
+font-size: 12pt;
+
+}
+
+.wrap-btm-Padding .btn-group{
+    margin-left:10px;
+}
+
+/* weather block cards */
+#tempControle{
+    align-self: center;
+    text-align:left;
+    margin-bottom: 5px;
+    height: 30px; 
+    width: 30px;   
+    padding-left:3px;   
+}
+#tempSplit{
+    align-self: center;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 25px;  
+}
+
+.card-body img{
+    width: 100px;
+}
+.card-title,
+.card-body,
+.high, .low,
+.feels-high,.feels-low{
+    text-align: center;
+}
+
+
+
+.card-group{
+  
+    justify-content: space-evenly;
+    flex:1;
+}
+.card{
+   
+    max-width: 180px;
+}
+.high,
+.feels-high{
+    flex:1;
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.low,
+.feels-low{
+    flex:1;
+    color: blue;
+    font-family: cursive;
+}
+/* cookie  */
+.cookie span{
+font-weight: bold;
+}
+#btn-accept{
+width: 120px;
+background-color: rgb(49, 150, 233);
+}
+
+.label-group{
+    min-width:20px;
+  text-align: end;  
+}
+#temp-label{
+    color:red;
+    margin-top:200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+#feels-like{
+    margin-top:10px;
+    color: blue;
+    font-family: cursive;
+}

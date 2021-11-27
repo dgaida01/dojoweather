@@ -1,0 +1,32 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+ 
+.flexed{
+display:flex;
+justify-content:space-between;
+align-items: center;
+}
+ 
+.flex-col{
+display:flex;
+flex-direction:column;
+}
+.wrap-top {
+flex:1;
+align-self: center;
+}
+.wrap-btm {
+display:flex;
+justify-content: flex-end;
+flex:1;
+ align-items: center;
+}
+.std-block-limit{
+padding-top: 10px;
+padding-left:100px;
+padding-right:100px;
+max-width: 1500px;
+}
